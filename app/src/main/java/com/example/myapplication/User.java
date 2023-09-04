@@ -14,7 +14,7 @@ public class User extends com.example.myapplication.People {
 
 
     public User(String nameInput, String jobInput) { // --> bir kullanıcı oluşturuyor (User), içinde 2 tane input alıyor, en baştaki propertyi bu inputa eşitliyor.
-        this.name = nameInput; //this= imindeki sınıfa(yukarıdaki string name) referans vererek Property i çağırıyor ve nameInput ile eşitliyor.
+        this.name = nameInput; //this= imindeki sınıfa (yukarıdaki string name) referans vererek Property i çağırıyor ve nameInput ile eşitliyor.
         this.job = jobInput;
 
         System.out.println("User Created."); // her obje oluşturulunca cağrılan metot olduğundan dolayı bir kullanıcı oluşturuldu mesajı yazdırıyoruz.
