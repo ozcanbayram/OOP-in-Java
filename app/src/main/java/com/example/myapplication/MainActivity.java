@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         SuperMusician lars = new SuperMusician("Lars", "Drums",55);
         System.out.println(lars.getName()); //Burada SuperMusuican Class'ı ile işlem yapmamıza rağmen Musician Class'ını da kullanabilriz, çünkü SuperMusuician Class'ında yaptığımız işlem ile Musician Class'ından miras aldık yani Inheritanc işlemini uyguladık.
         System.out.println(lars.sing());
+        System.out.println(lars.getAge());
 
         //Özetle Inheritance kullanarak SuperMusuician sınıfına hem kendi metotlarını belirledik hem de Musician sınıfının özelliklerini belirledik.Böylece lars nesnesi SuperMusician sınıfından türetilmesine rağmen Musician sınıfının da özelliklerini kullanabilir.
 
